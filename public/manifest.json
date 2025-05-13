@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "ReviewRadar: Fake Review Identifier",
+  "description": "Identifies and tags fake reviews on Amazon using an on-device ML model. Modern UI with React, Tailwind, and ShadCN.",
+  "version": "0.1.0",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.svg",
+      "32": "icon.svg",
+      "48": "icon.svg",
+      "128": "icon.svg"
+    }
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
