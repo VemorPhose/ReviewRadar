@@ -1,12 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ReviewRadar
 
-Currently, two official plugins are available:
+**ReviewRadar** is a Chrome extension that helps users detect potentially fake product reviews on e-commerce platforms like Amazon. Using an in-browser machine learning model trained on the YelpChi dataset, it analyzes reviews in real-time and displays confidence scores or classification tags to enhance trust in online shopping.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔍 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✨ Real-time detection of fake reviews on Amazon
+- 📊 Two analysis modes:
+  - **Confidence Score Mode** (0–100%)
+  - **Classification Mode** (Genuine / Unsure / Fake)
+- ⚡ Fast, client-side ML inference using TensorFlow.js
+- 🎨 Dark-themed UI built with Tailwind CSS and ShadCN UI
+- 🧠 Trained on the YelpChi fake review dataset
+
+---
+
+## 🛠️ Tech Stack
+
+- React + Vite (for Chrome Extension UI)
+- JavaScript (no TypeScript)
+- Tailwind CSS + ShadCN UI
+- TensorFlow.js (for ML inference)
+- YelpChi dataset (model training)
+- vite-plugin-crx (for extension bundling)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- Chrome browser
+- YelpChi-trained model (TF.js format)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/reviewradar.git
+   cd reviewradar
+   ```
