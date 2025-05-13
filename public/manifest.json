@@ -4,19 +4,10 @@
   "description": "Identifies and tags fake reviews on Amazon using an on-device ML model. Modern UI with React, Tailwind, and ShadCN.",
   "version": "0.1.0",
   "icons": {
-    "16": "icon.svg",
-    "32": "icon.svg",
-    "48": "icon.svg",
-    "128": "icon.svg"
+    "32": "icon.png"
   },
   "action": {
-    "default_popup": "index.html",
-    "default_icon": {
-      "16": "icon.svg",
-      "32": "icon.svg",
-      "48": "icon.svg",
-      "128": "icon.svg"
-    }
+    "default_popup": "index.html"
   },
   "permissions": [
     "scripting",
