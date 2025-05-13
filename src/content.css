@@ -1,0 +1,13 @@
+/* Styles for ReviewRadar content script elements */
+
+/* 
+  We aim to use Tailwind utility classes as much as possible, 
+  injected via the content script itself or from the popup's styles if they are global.
+  However, if very specific overrides or base styles for injected elements are needed,
+  they can go here.
+
+  Example:
+  .review-radar-badge-custom {
+    font-family: 'Arial', sans-serif; 
+  }
+*/
