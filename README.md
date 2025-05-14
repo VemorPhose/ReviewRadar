@@ -1,4 +1,3 @@
-
 # ReviewRadar
 
 **ReviewRadar** is a Chrome extension that helps users detect potentially fake product reviews on e-commerce platforms like Amazon. Using an in-browser machine learning model trained on the YelpChi dataset, it analyzes reviews in real-time and displays confidence scores or classification tags to enhance trust in online shopping.
@@ -43,3 +42,7 @@
    git clone https://github.com/yourusername/reviewradar.git
    cd reviewradar
    ```
+
+## 📚 References
+
+Salminen, J., Kandpal, C., Kamel, A. M., Jung, S., & Jansen, B. J. (2022). Creating and detecting fake reviews of online products. Journal of Retailing and Consumer Services, 64, 102771. https://doi.org/10.1016/j.jretconser.2021.102771
